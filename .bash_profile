@@ -3,8 +3,12 @@ export EDITOR=/usr/bin/vi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
 export JAVA_HOME=/Library/Java/Home
+export HADOOP_HOME=/usr/lib/hadoop
+export HADOOP_CLASSPATH=/usr/lib/hbase/lib/guava-r06.jar:/usr/lib/hbase/lib/zookeeper-3.3.4-cdh3u3.jar
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/local/Cellar/groovy/1.8.2/libexec
+export PATH=$PATH:/usr/lib/hadoop/bin
+export PATH=$PATH:/usr/lib/hbase/bin
 export M3_HOME=/usr/share/maven
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
