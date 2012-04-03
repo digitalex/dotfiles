@@ -37,11 +37,6 @@ function __git_branch() {
 }
 
 PS1='\w [\e[0;33m\]$(__git_branch)\[\e[0m\]] \$ '
-#PS1='$(__git_ps1)'
-
-# PS1 modding
-#PS1='\w $(parse_git_branch) \$ '
-#PS1='\w$(__git_ps1 " [\e[0;33m\]%s\[\e[0m\]]") \$ '
 
 # Bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
