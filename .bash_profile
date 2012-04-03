@@ -28,8 +28,7 @@ alias mvn=color_maven
 alias maven=$M3_HOME/bin/mvn
 
 # Git tab completion
-# source ~/.git-completion.sh
-# It messed up stuff!
+source ~/.git-completion.sh
 
 # Add the Git branch name to the prompt
 function __git_branch() {
