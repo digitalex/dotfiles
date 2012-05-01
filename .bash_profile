@@ -54,6 +54,7 @@ alias gd='git diff'
 alias gb='git branch'
 alias gl='git log --pretty=oneline'
 alias go='git checkout'
+alias gf='git fetch'
 
 # Project paths
 alias auth='cd ~/Code/Companybook/Authentication'
