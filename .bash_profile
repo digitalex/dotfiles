@@ -62,6 +62,7 @@ alias front='cd ~/Code/Companybook/front'
 alias webapi='cd ~/Code/Companybook/webapi'
 alias jp='cd ~/Code/Companybook/java-parent'
 alias krabater='cd ~/Dropbox/Websites/krabater3'
+alias udacity='cd ~/Dropbox/Code/Udacity'
 
 # Misc
 alias ls='ls -lah'
