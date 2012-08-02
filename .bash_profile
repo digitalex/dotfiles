@@ -72,6 +72,7 @@ alias mongo='mongod run --config /usr/local/Cellar/mongodb/2.0.2-x86_64/mongod.c
 alias loc_rb='wc -l `find . -name *.rb`'
 alias kfkstart='cd ~/bin/kafka && nohup ./bin/kafka-server-start.sh config/server.properties &'
 alias kfkstop='~/bin/kafka-server-stop.sh'
+alias rmr='rm -r'
 
 # Functional alias to ssh into datanodes
 function dn(){
