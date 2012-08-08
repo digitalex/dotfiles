@@ -73,6 +73,7 @@ alias loc_rb='wc -l `find . -name *.rb`'
 alias kfkstart='cd ~/bin/kafka && nohup ./bin/kafka-server-start.sh config/server.properties &'
 alias kfkstop='~/bin/kafka-server-stop.sh'
 alias rmr='rm -r'
+alias devlog='tail -f log/development.log'
 
 # Functional alias to ssh into datanodes
 function dn(){
