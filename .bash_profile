@@ -9,6 +9,7 @@ export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/local/Cellar/groovy/1.8.2/libexec
 export PATH=$PATH:/usr/lib/hadoop/bin
 export PATH=$PATH:/usr/lib/hbase/bin
+export NODE_PATH=/usr/local/lib/node_modules
 export M3_HOME=/usr/share/maven
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
