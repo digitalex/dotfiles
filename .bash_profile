@@ -76,6 +76,7 @@ alias kfkstop='~/bin/kafka-server-stop.sh'
 alias rmr='rm -r'
 alias devlog='tail -f log/development.log'
 alias untar='tar -xvf'
+alias grr='grep -r'
 
 # Functional alias to ssh into datanodes
 function dn(){
