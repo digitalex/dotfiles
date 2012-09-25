@@ -4,11 +4,12 @@ export EDITOR=/usr/bin/vi
 
 export JAVA_HOME=/Library/Java/Home
 export HADOOP_HOME=/usr/lib/hadoop
-export HADOOP_CLASSPATH=/usr/lib/hbase/lib/guava-r06.jar:/usr/lib/hbase/lib/zookeeper-3.3.4-cdh3u3.jar
+export HADOOP_CLASSPATH=/usr/lib/hbase/lib/guava-11.0.2.jar:/usr/lib/hbase/lib/zookeeper-3.4.3-cdh4.0.1.jar
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/local/Cellar/groovy/1.8.2/libexec
-export PATH=$PATH:/usr/lib/hadoop/bin
-export PATH=$PATH:/usr/lib/hbase/bin
+#export PATH=$PATH:/usr/lib/hadoop/bin
+#export PATH=$PATH:/usr/lib/hbase/bin
+#export PATH=$PATH:/usr/lib/zookeeper/bin
 export NODE_PATH=/usr/local/lib/node_modules
 export M3_HOME=/usr/share/maven
 export LC_CTYPE=en_US.UTF-8
@@ -67,8 +68,8 @@ alias udacity='cd ~/Dropbox/Code/Udacity'
 
 # Misc
 alias ls='ls -lah'
-alias hbstart='start-hbase.sh && hbase thrift -b 127.0.0.1 start'
-alias hbstop='stop-hbase.sh'
+alias hbstart='/usr/lib/hbase/bin/start-hbase.sh && /usr/lib/hbase/bin/hbase thrift -b 127.0.0.1 start'
+alias hbstop='/usr/lib/hbase/bin/stop-hbase.sh'
 alias mongo='mongod run --config /usr/local/Cellar/mongodb/2.0.2-x86_64/mongod.conf'
 alias loc_rb='wc -l `find . -name *.rb`'
 alias kfkstart='cd ~/bin/kafka && nohup ./bin/kafka-server-start.sh config/server.properties &'
@@ -76,7 +77,7 @@ alias kfkstop='~/bin/kafka-server-stop.sh'
 alias rmr='rm -r'
 alias devlog='tail -f log/development.log'
 alias untar='tar -xvf'
-alias grr='grep -r'
+alias grr='grep -i -r'
 
 # Functional alias to ssh into datanodes
 function dn(){
