@@ -57,6 +57,7 @@ alias gb='git branch'
 alias gl='git log --pretty=oneline'
 alias go='git checkout'
 alias gf='git fetch'
+alias grm='git rm'
 
 # Project paths
 alias auth='cd ~/Code/Companybook/Authentication'
@@ -77,7 +78,7 @@ alias kfkstop='~/bin/kafka-server-stop.sh'
 alias rmr='rm -r'
 alias devlog='tail -f log/development.log'
 alias untar='tar -xvf'
-alias grr='grep -i -r'
+alias grr='grep --color=auto -i -r'
 
 # Functional alias to ssh into datanodes
 function dn(){
