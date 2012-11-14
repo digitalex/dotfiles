@@ -41,6 +41,11 @@ map <Leader>n :NERDTreeToggle<CR>
 " Command-T configuration
 let g:CommandTMaxHeight=20
 
+" PIG syntax highlighting
+augroup filetypedetect 
+  au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
+augroup END
+
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
 
